@@ -1,3 +1,3 @@
-var posts=["2024/09/09/parse/【解析】Butterfly Seeker/","2025/01/20/source/pc/【PC】灵感满溢的甜蜜创想/","2025/01/20/source/ty/【Ty】灵感满溢的甜蜜创想/"];function toRandomPost(){
+var posts=["2024/09/09/parse/【解析】Butterfly Seeker/","2025/01/20/source/pc/【PC】灵感满溢的甜蜜创想/","2025/01/20/source/ty/【Ty】灵感满溢的甜蜜创想/","2025/02/04/source/pc/【PC】Unless Terminalia/","2025/02/04/source/pc/【PC】pieces(候鸟的梦)/","2025/02/04/source/pc/【PC】未来广播与人工鸽/","2025/02/04/source/pc/【PC】牛顿与苹果树/","2025/02/04/source/pc/【PC】白日梦的构想图/","2025/02/04/source/kr/【Kr】童贞兄妹/","2025/02/04/source/pc/【PC】樱之诗/","2025/01/20/source/pc/【PC】灵感满溢的甜蜜创想 - 凸/","2025/02/04/source/pc/【PC】爱因斯坦携爱敬上/","2025/02/04/source/pc/【PC】童贞兄妹/","2025/01/20/source/ty/【Ty】灵感满溢的甜蜜创想 - 凸/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
